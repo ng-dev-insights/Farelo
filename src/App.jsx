@@ -3075,10 +3075,10 @@ export default function Farelo() {
   // ⚠️  PRODUCTION REMINDER: Replace G-XXXXXXXXXX with your real GA4 Measurement ID.
   //    Get it from: analytics.google.com → Admin → Data Streams → Web → Measurement ID
   //    GA is silently disabled until this is set — no tracking, no errors.
-  const GA_ID = "G-XXXXXXXXXX";
+  const GA_ID = "G-C6CJ6J0P10";
 
   useEffect(() => {
-    if (!GA_ID || GA_ID === "G-XXXXXXXXXX") return; // skip until real ID is set
+    if (!GA_ID || GA_ID === "G-C6CJ6J0P10") return; // skip until real ID is set
     // Inject gtag script tag
     const script1 = document.createElement("script");
     script1.async = true;

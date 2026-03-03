@@ -3078,7 +3078,7 @@ export default function Farelo() {
   const GA_ID = "G-C6CJ6J0P10";
 
   useEffect(() => {
-    if (!GA_ID || GA_ID === "G-C6CJ6J0P10") return; // skip until real ID is set
+    if (!GA_ID) return; // skip until real ID is set
     // Inject gtag script tag
     const script1 = document.createElement("script");
     script1.async = true;
